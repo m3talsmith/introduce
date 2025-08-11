@@ -1,4 +1,3 @@
-#[macro_export]
 macro_rules! introduce {
     () => {
         println!("Hello, I'm World!");
@@ -23,3 +22,4 @@ macro_rules! introduce {
         println!("{}", message);
     };
 }
+pub(crate) use introduce;
