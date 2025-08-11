@@ -1,6 +1,6 @@
 # Introduce
 
-An example of rust macros
+An example of rust declarative macros
 
 ## Development
 
